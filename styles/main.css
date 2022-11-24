@@ -10,35 +10,39 @@ body{
 }
 h1 {
     color: rgb(190, 54, 150);
+    margin: 1% 45%;
+    font-size: 48px;
+}
+h2 {
+    color: rgb(109, 58, 156);
+    margin: 1% 45%;
+    font-size: 44px;
+
 }
 .tarjetas-contacto {
-    padding: 0px 68px;
-    width: 48%;
+    padding: 5px 5px;
+    width: 50%;
+    margin: 0% 35%;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: flex-start;
     justify-content: center;
 }
 .tarjetas-contacto li {
     list-style: none;
     background-color: rgb(233, 233, 233);
-    width: 100%;
-    margin-bottom: 12px;
-    padding: 24px 12px;
+    width: 70%;
+    margin-bottom: 18px;
+    padding: 24px 122px;
     border-radius: 14px;
 }
-.tarjetas-contacto li h5 {
-    margin: 0px;
+.tarjetas-contacto li h3 {
+    margin: 0% 10%;
+    font-size: 48px;
+    color: rgb(153, 17, 119);
+}
+.tarjetas-contacto li img {
+    padding: 24px 12px;
+    margin: 2% 5%;
 }
 
-.Comentarios{
-    margin: 10% 50%;
-    padding: 28px;
-    border-radius: 12px;
-    border-color: rgb(163, 112, 211);
-}
-.Comentarios a {
-    font-size: 23px;
-    text-decoration: none;
-    color: rgb(113, 68, 156);
-}
